@@ -1,3 +1,23 @@
-body {
-    font-family:'Kumbh Sans', sans-serif;
+@media screen and (min-width: 375px) {
+    body {
+        font-family:'Kumbh Sans', sans-serif;
+        margin: 0 5rem;
+    }
+    
+    .header-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .header-grid-container {
+        display: grid;
+        grid-template-columns: 600px 1fr;
+        margin-top: 2.5rem;
+    }
+    .header-grid-item {
+        
+    }
+
+    
 }
