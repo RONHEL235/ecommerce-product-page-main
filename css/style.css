@@ -1,6 +1,7 @@
 @media screen and (min-width: 375px) {
     body {
         font-family:'Kumbh Sans', sans-serif;
+        font-weight: 400px;
         margin: 0 5rem;
     }
     
@@ -12,12 +13,124 @@
     
     .header-grid-container {
         display: grid;
-        grid-template-columns: 600px 1fr;
-        margin-top: 2.5rem;
-    }
-    .header-grid-item {
-        
+        grid-template-columns: 650px 1fr;
+        margin: 2.5rem 0;
     }
 
+    .nav-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-grid-container {
+        display: grid;
+        grid-template-columns: 650px 1fr;
+        margin: 2.5rem 0;
+    }
+
+    .product-info {
+        margin-top: 6rem;
+    }
+
+    .image-info {
+        display: grid;
+        
+        margin-top: 3rem;
+    }
+
+    .image-size {
+        height: 400px;
+        width: 500px;
+    }
+
+    .image-size1 {
+        height: 100px;
+        width: 125px;
+    }
+
+    #sneaker-company {
+        color: orange;
+        margin-bottom: 1rem; 
+    }
+
+    #limited-edition {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+
+    .price-flex {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+
+    .price-flex-item1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    .price-flex-item2 {
+        border-radius: 0.5rem;
+        color: orange;
+        font-weight: 500;
+        background-color: rgb(239, 207, 172);
+        padding: 0.3rem;
+    }
+
+    #info-words {
+        margin-bottom: 2.5rem;
+    }
+
+    #grey-price {
+        color: grey;
+        margin-bottom: 1.5rem;
+    }
+
+    .cart-flex {
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+        align-items: center;
+    }
+
+    .icon {
+        align-items: center;
+        padding: 0.6rem 1rem;
+        background-color: rgb(240, 236, 236);
+        border-radius: 0.2rem;
+    }
     
+    .icon1 {
+        align-items: center;
+        padding: 0.6rem 3rem;
+        color: white;
+        background-color: rgb(229, 121, 32);
+        border-radius: 0.5rem;
+        margin-left: 0.8rem;
+    }
+
+    .cart-image {
+        color: white;
+        margin-right: 0.6rem;
+    }
+
+    .image-size1 {
+        height: 0.3rem;
+        width: 1rem;
+    }
+
+    .image-size2 {
+        height: 1rem;
+        width: 1rem;
+    }
 }
