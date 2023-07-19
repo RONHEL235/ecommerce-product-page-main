@@ -34,26 +34,29 @@
         display: grid;
         grid-template-columns: 650px 1fr;
         margin: 2.5rem 0;
+        border: 0.2rem solid black;    
     }
 
     .product-info {
         margin-top: 6rem;
+        border: 0.2rem solid black;
     }
 
     .image-info {
         display: grid;
-        
-        margin-top: 3rem;
+        border: 0.1rem solid black;
+    }
+
+    .image-product-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
     }
 
     .image-size {
-        height: 400px;
-        width: 500px;
-    }
-
-    .image-size1 {
-        height: 100px;
-        width: 125px;
+        height: 500px;
+        width: 550px;
     }
 
     #sneaker-company {
