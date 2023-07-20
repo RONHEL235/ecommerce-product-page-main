@@ -1,9 +1,9 @@
 @media screen and (min-width: 375px) {
-    /* ------navigation------- */
+    /* ============navigation=========== */
     body {
         font-family:'Kumbh Sans', sans-serif;
         font-weight: 400px;
-        margin: 0 5rem;
+        margin: 0 70px;
     }
     
     .header-flex {
@@ -15,7 +15,7 @@
     .header-grid-container {
         display: grid;
         grid-template-columns: 650px 1fr;
-        margin: 2.5rem 0;
+        margin: 35px 0;
     }
 
     .nav-flex {
@@ -31,7 +31,44 @@
         justify-content: center;
     }
 
-    /* -------main--------- */
+    /* =========main-grid========= */
+    .main-grid {
+        border: 5px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr; 
+    }
+    /* =========main-info-adjustment========== */
+    .shoe-info {
+        margin: 80px 80px 0 80px;
+    }
 
-    
+    #sneaker-company {
+        color: orange;
+        margin-bottom: 10px;
+    }
+
+    #fall-limited {
+        font-weight: bold;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    #these-low-profile {
+        margin-bottom: 10px;
+    }
+
+    .price-flex {
+        
+    }
+    /* =========main-image-adjustments======== */
+    .product1-image {
+        width: 512px;
+        height: 400px;
+    }
+
+    .thumbnail-images {
+        height: 100px;
+        width: 125px;
+    }
 }
