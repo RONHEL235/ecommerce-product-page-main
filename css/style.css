@@ -88,9 +88,31 @@
     .cart-flex {
         display: flex;
         flex-direction: row;
-
         margin-bottom: 10px;
+        align-items: center;
     }
+
+    .minus-number-plus {
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        align-items: center;
+        background-color: rgb(243, 241, 241);
+        border-radius: 5px;
+    }
+
+    #minus, #number, #plus {
+        padding: 10px 15px 10px 15px;
+    }
+
+    #add-to-cart {
+        color: white;
+        background-color: rgb(242, 81, 23);
+        padding: 10px 60px 10px 60px;
+        border-radius: 5px;
+        margin-left: 10px; 
+    }
+
     /* =========main-image-adjustments======== */
     .product1-image {
         width: 512px;
