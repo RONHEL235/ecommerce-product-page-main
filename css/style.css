@@ -106,11 +106,20 @@
     }
 
     #add-to-cart {
+        display: flex;
+        flex-direction: row;
         color: white;
         background-color: rgb(242, 81, 23);
         padding: 10px 60px 10px 60px;
         border-radius: 5px;
         margin-left: 10px; 
+    }
+
+    #cart-image {
+        width: 13px;
+        height: 16px;
+        color: white;
+        margin-right: 2.5px;
     }
 
     /* =========main-image-adjustments======== */
